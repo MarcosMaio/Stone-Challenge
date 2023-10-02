@@ -66,34 +66,15 @@ export const InputRadioCheckboxStyled = styled.div `
     input[type="radio"]:checked::after {
         width: 12px;
         height: 12px;
-        top: -32px;
-        left: -1px;
+        top: -32.5px;
+        left: -0.9px;
     }
 }
 
 /* Cell Phones */
 @media (max-width: 480px) {
 
-    input[type="radio"]:checked::after {
-        width: 10px;
-        height: 10px;
-        top: -29px;
-        left: -2px;
-    }
-
-    input[type="radio"]::after {
-        width: 18px;
-        height: 18px;
-        top: -8.5px;
-        left: -6px;
-    }
-
-    input[type="radio"]:checked::before {
-        width: 18px;
-        height: 18px;
-        top: -8.5px;
-        left: -6px;
-    }
+    
 }
 
 /* Cell Phones */
@@ -101,27 +82,6 @@ export const InputRadioCheckboxStyled = styled.div `
     
     label {
         font-size: 12px;
-    }
-
-    input[type="radio"]:checked::after {
-        width: 9px;
-        height: 9px;
-        top: -24px;
-        left: 0.1px;
-    }
-
-    input[type="radio"]::after {
-        width: 15px;
-        height: 15px;
-        top: -5px;
-        left: -3px;
-    }
-
-    input[type="radio"]:checked::before {
-        width: 15px;
-        height: 15px;
-        top: -5px;
-        left: -3px;
     }
 }
 `
