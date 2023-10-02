@@ -2,6 +2,7 @@
 
 This project was developed as part of a public challenge proposed by a company. The goal was to create a web application that allows the conversion of dollar values to Brazilian real.
 
+![site illustrato](https://imgur.com/C680m2v)
 
 ## Overview
 The Dollar to Real Converter application consists of two main steps:
