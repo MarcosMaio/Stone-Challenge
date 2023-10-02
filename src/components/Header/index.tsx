@@ -31,7 +31,7 @@ const convertTime = getDataUser.toLocaleTimeString('pt-BR', optionsHour);
                             <span data-testid={"current-date"}>
                                 {convertDate}
                             </span>
-                            <div style={{margin: '10px 20px 10px 20px'}}>|</div>
+                            <div style={{margin: '10px 15px 10px 15px', color: 'rgb(69, 80, 94)'}}>|</div>
                             <span data-testid={"current-time"}>
                                 {convertTime} UTC
                             </span>
