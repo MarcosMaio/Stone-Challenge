@@ -104,23 +104,23 @@ export const InputRadioCheckboxStyled = styled.div `
     }
 
     input[type="radio"]:checked::after {
-        width: 8px;
-        height: 8px;
-        top: -26px;
-        left: 0.7px;
+        width: 9px;
+        height: 9px;
+        top: -24px;
+        left: 0.1px;
     }
 
     input[type="radio"]::after {
         width: 15px;
         height: 15px;
-        top: -6px;
+        top: -5px;
         left: -3px;
     }
 
     input[type="radio"]:checked::before {
         width: 15px;
         height: 15px;
-        top: -6px;
+        top: -5px;
         left: -3px;
     }
 }
