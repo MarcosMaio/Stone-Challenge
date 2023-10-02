@@ -71,13 +71,7 @@ export const InputRadioCheckboxStyled = styled.div `
     }
 }
 
-/* Cell Phones */
-@media (max-width: 480px) {
-
-    
-}
-
-/* Cell Phones */
+/* Smaller Cell Phones */
 @media (max-width: 365px) {
     
     label {
